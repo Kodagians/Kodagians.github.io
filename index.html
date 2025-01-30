@@ -5,46 +5,100 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Kodagians Alumni Association</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <nav class="navbar">
+    <div class="container">
+      <div class="logo">
+        <img src="kodaac-logos.png" alt="Kodagians Logo" class="nav-logo">
+        <span>KODAAC</span>
+      </div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#links">Links</a>
+        <a href="https://alumni.sainikschoolkodagu.edu.in/" class="cta-button">Main Website</a>
+      </div>
+    </div>
+  </nav>
 
-  <header>
+  <header class="hero">
     <div class="container">
       <h1>Kodagians Alumni Association</h1>
-      <p>Fraternity and Service!</p>
+      <p class="tagline">Fraternity and Service!</p>
+      <div class="hero-cta">
+        <a href="#about" class="primary-button">Learn More</a>
+      </div>
     </div>
   </header>
 
   <main>
-    <div class="container">
-      <section class="intro">
-        <h2>Welcome to the Kodagians Alumni Association</h2>
-        <p>The Kodagians Alumni Association is a registered body under the Government of Karnataka. We work for the welfare of alumni of Sainik School Kodagu and society.</p>
-      </section>
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Welcome to KODAAC</h2>
+          <div class="section-divider"></div>
+        </div>
+        <p class="lead-text">KODAAC (Kodagians Alumni Association) is a registered body under the Government of Karnataka. We work for the welfare of alumni of Sainik School Kodagu and society.</p>
+      </div>
+    </section>
 
-      <section class="links">
-        <h3>Links</h3>
-        <ul>
-          <li><a href="https://alumni.sainikschoolkodagu.edu.in/" target="_blank">Main Website</a></li>
-          <li><a href="https://www.linkedin.com/company/kodaac/" target="_blank">LinkedIn</a></li>
-          <li><a href="https://www.instagram.com/kodaacs/" target="_blank">Instagram</a></li>
-        </ul>
-      </section>
+    <section id="links" class="links-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Connect With Us</h2>
+          <div class="section-divider"></div>
+        </div>
+        <div class="social-grid">
+          <a href="https://alumni.sainikschoolkodagu.edu.in/" class="social-card">
+            <i class="fas fa-globe"></i>
+            <h3>Main Website</h3>
+            <p>Visit our official alumni portal</p>
+          </a>
+          <a href="https://www.linkedin.com/company/kodaac/" class="social-card">
+            <i class="fab fa-linkedin"></i>
+            <h3>LinkedIn</h3>
+            <p>Join our professional network</p>
+          </a>
+          <a href="https://www.instagram.com/kodaacs/" class="social-card">
+            <i class="fab fa-instagram"></i>
+            <h3>Instagram</h3>
+            <p>Follow our latest updates</p>
+          </a>
+          <a href="https://www.github.com/kodagians/" class="social-card">
+            <i class="fab fa-github"></i>
+            <h3>Github</h3>
+            <p>Contribute to Our Projects</p>
+          </a>
+        </div>
+      </div>
+    </section>
 
-      <!-- <section class="temporary">
-        <h3>Temporary Buffer Website</h3>
-        <p>This is a temporary placeholder site until the main website is rebuilt. Stay tuned for more updates!</p>
-      </section> -->
-    </div>
+    <section class="notice-section">
+      <div class="container">
+        <div class="notice-card">
+          <i class="fas fa-info-circle"></i>
+          <h3>Website Update in Progress</h3>
+          <p>This is a temporary placeholder site until the main website is rebuilt. Stay tuned for more updates!</p>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Kodagians Alumni Association.</p>
+      <div class="footer-content">
+        <p>&copy; 2025 KODAAC. All rights reserved.</p>
+        <div class="footer-social">
+          <a href="https://alumni.sainikschoolkodagu.edu.in/"><i class="fas fa-globe"></i></a>
+          <a href="https://www.linkedin.com/company/kodaac/"><i class="fab fa-linkedin"></i></a>
+          <a href="https://www.instagram.com/kodaacs/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/kodagians/kodagians.github.io"><i class="fab fa-github"></i></a>
+        </div>
+      </div>
     </div>
   </footer>
-
 </body>
 </html>
